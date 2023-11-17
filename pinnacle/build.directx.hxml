@@ -1,0 +1,5 @@
+_base.hxml
+-D windowSize=1280x720
+-D windowTitle=Pinnacle
+-lib hldx
+-hl bin/pinnacle.hl

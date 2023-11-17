@@ -1,0 +1,3 @@
+build.opengl.hxml
+--dce std
+-debug

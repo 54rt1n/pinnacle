@@ -1,0 +1,45 @@
+Beginning of License
+
+Pinnacle License
+
+Copyright (c) 2023, Martin Bukowski 
+
+All rights reserved.
+
+1. Definition of the Project
+
+For the purposes of this license, "the Project" shall refer to all files contained within this repository, including but not limited to software programs, libraries, documentation files, and any other associated materials developed and maintained therein.
+
+2. Grant of License
+
+Martin Bukowski grants you a non-exclusive, non-transferable, free license to download, copy, modify, and distribute the Project for non-commercial purposes, subject to the terms and conditions of this License.
+
+3. Restrictions
+
+The license granted in Section 2 does not include the right to use the Project for any commercial purposes. You may not distribute or sublicense the Project to others for commercial use, or use the ideas therein to produce commercial works.
+
+4. Copyright and Ownership
+
+Martin Bukowski retains all rights, title, and interest in and to the Project, including all copyrights and rights to derivative works. No rights are granted to you other than as expressly set forth in this License.
+
+5. Maintenance of License
+
+This License must be maintained and unchanged in all derivative works of the Project.
+
+6. No Endoresement
+
+Neither the name of Martin Bukowski nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+7. No Warranty, Limitation of Liability
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+8. Severability
+
+If any provision of this License is found to be unenforceable or invalid, such unenforceability or invalidity shall not affect the other provisions of this License, which shall remain in full force and effect.
+
+End of License
+
+Copyright (c) 2023, Martin Bukowski 
+
+All rights reserved.

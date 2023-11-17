@@ -1,0 +1,9 @@
+-lib heaps
+-lib hlsdl
+-lib deepnightLibs
+-lib ldtk-haxe-api
+#-D resourcesPath=./assets
+-D display-details
+--class-path src
+-main Main
+-hl out/main.hl

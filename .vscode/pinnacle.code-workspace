@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "worldgen",
+			"path": "../worldgen"
+		},
+		{
+			"name": "pinnacle",
+			"path": "../pinnacle"
+		},
+		{
+			"name": "pinnacle-haxe",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

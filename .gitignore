@@ -1,0 +1,13 @@
+/local
+.idea
+pinnacle/out
+.DS_Store
+software/*
+*.dmg
+node_modules
+pinnacle/**/backups/*/*.ldtk
+__pycache__
+.ipynb_checkpoints
+venv
+wenv
+*.*~

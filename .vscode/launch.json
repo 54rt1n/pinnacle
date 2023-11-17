@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome against localhost",
+            "port": 9222,
+            "request": "launch",
+            "type": "chrome",
+            "url": "file://${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": {
+                "type" : "haxe",
+                "args" : "active configuration"
+            }
+        },
+    ]
+}
+

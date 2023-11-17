@@ -1,0 +1,3727 @@
+{
+	"sheets": [
+		{
+			"name": "locations",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "locationId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "3",
+					"name": "worldX",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "worldY",
+					"kind": null
+				},
+				{
+					"typeStr": "6:factions",
+					"name": "faction",
+					"kind": null
+				},
+				{
+					"typeStr": "1",
+					"name": "type",
+					"kind": null
+				},
+				{
+					"typeStr": "1",
+					"name": "features",
+					"opt": true,
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"locationId": "Harrad",
+					"worldX": 2,
+					"worldY": 15,
+					"type": "Manor",
+					"features": "Inn, Farm",
+					"faction": "No_Faction"
+				},
+				{
+					"locationId": "Temple_Of_Order",
+					"worldX": 3,
+					"worldY": 15,
+					"type": "Temple",
+					"faction": "No_Faction",
+					"features": "Poolhouse"
+				},
+				{
+					"locationId": "Temple_Of_Chaos",
+					"worldX": 15,
+					"worldY": 3,
+					"type": "Temple",
+					"faction": "No_Faction",
+					"features": "Poolhouse"
+				},
+				{
+					"locationId": "Silveroak",
+					"worldX": 14,
+					"worldY": 6,
+					"type": "Town",
+					"features": "Port",
+					"faction": "Veridia"
+				},
+				{
+					"locationId": "Solara",
+					"worldX": 5,
+					"worldY": 9,
+					"type": "Town",
+					"faction": "Solena"
+				},
+				{
+					"locationId": "Ironthorn",
+					"worldX": 9,
+					"worldY": 7,
+					"type": "Castle",
+					"features": "Manor",
+					"faction": "Veridia"
+				},
+				{
+					"locationId": "Solstice",
+					"worldX": 7,
+					"worldY": 6,
+					"faction": "Solena",
+					"type": "Castle"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "levels",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "levelId"
+				},
+				{
+					"typeStr": "6:locations",
+					"name": "location"
+				},
+				{
+					"typeStr": "6:settlements",
+					"name": "settlement",
+					"opt": true,
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "xOff",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "yOff",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "z",
+					"kind": null
+				},
+				{
+					"typeStr": "2",
+					"name": "dark",
+					"opt": true,
+					"kind": null
+				},
+				{
+					"typeStr": "2",
+					"name": "ground",
+					"opt": true
+				}
+			],
+			"lines": [
+				{
+					"levelId": "Start_Area",
+					"xOff": 33,
+					"yOff": 14,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Nowhere"
+				},
+				{
+					"levelId": "Harrad_Manor_B1",
+					"xOff": 73,
+					"yOff": 81,
+					"z": -1,
+					"dark": true,
+					"location": "Harrad",
+					"settlement": "Manor_Harrad"
+				},
+				{
+					"levelId": "Harrad_Manor",
+					"xOff": 73,
+					"yOff": 81,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Manor_Harrad"
+				},
+				{
+					"levelId": "Harrad_Manor_F1",
+					"xOff": 73,
+					"yOff": 81,
+					"z": 1,
+					"location": "Harrad",
+					"settlement": "Manor_Harrad"
+				},
+				{
+					"levelId": "Harrad_Farm",
+					"xOff": 1,
+					"yOff": 64,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Farm_Harrad"
+				},
+				{
+					"levelId": "Harrad_Garden",
+					"xOff": 75,
+					"yOff": 73,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Garden_Harrad"
+				},
+				{
+					"levelId": "Harrad_Inn",
+					"xOff": 17,
+					"yOff": 95,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Inn_Harrad"
+				},
+				{
+					"levelId": "Harrad_Inn_B1",
+					"xOff": 33,
+					"yOff": 95,
+					"z": -1,
+					"dark": true,
+					"location": "Harrad",
+					"settlement": "Inn_Harrad"
+				},
+				{
+					"levelId": "Harrad_Tower_B1",
+					"xOff": 78,
+					"yOff": 19,
+					"z": -1,
+					"dark": true,
+					"location": "Harrad",
+					"settlement": "Tower_Harrad"
+				},
+				{
+					"levelId": "Harrad_Tower",
+					"xOff": 78,
+					"yOff": 25,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Tower_Harrad"
+				},
+				{
+					"levelId": "Harrad_Tower_F1",
+					"xOff": 78,
+					"yOff": 25,
+					"z": 1,
+					"location": "Harrad",
+					"settlement": "Tower_Harrad"
+				},
+				{
+					"levelId": "Harrad_Tower_F2",
+					"xOff": 78,
+					"yOff": 25,
+					"z": 2,
+					"location": "Harrad",
+					"settlement": "Tower_Harrad"
+				},
+				{
+					"levelId": "Harrad_Watch",
+					"xOff": 9,
+					"yOff": 63,
+					"z": 0,
+					"location": "Harrad",
+					"settlement": "Watch_Harrad"
+				},
+				{
+					"levelId": "Harrad",
+					"xOff": 0,
+					"yOff": 0,
+					"z": 0,
+					"ground": true,
+					"location": "Harrad"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "factions",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "factionId"
+				},
+				{
+					"typeStr": "3",
+					"name": "faction_int"
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"kind": "localizable"
+				},
+				{
+					"typeStr": "11",
+					"name": "affinity",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"name": "No Faction",
+					"faction_int": 1,
+					"factionId": "No_Faction",
+					"affinity": 7829367
+				},
+				{
+					"factionId": "Order",
+					"faction_int": 2,
+					"name": "Followers of Order",
+					"affinity": 15725806
+				},
+				{
+					"factionId": "Chaos",
+					"faction_int": 3,
+					"name": "Disciples of Chaos",
+					"affinity": 14209760
+				},
+				{
+					"factionId": "Agent",
+					"faction_int": 4,
+					"name": "Chaos Agents",
+					"affinity": 855309
+				},
+				{
+					"factionId": "Veridia",
+					"faction_int": 5,
+					"name": "Kingdom of Veridia",
+					"affinity": 1957266
+				},
+				{
+					"factionId": "Solena",
+					"faction_int": 6,
+					"name": "Republic of Solena",
+					"affinity": 2920146
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "settlements",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "settlementId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "6:locations",
+					"name": "location",
+					"kind": null
+				},
+				{
+					"typeStr": "6:buildings",
+					"name": "building",
+					"kind": null
+				},
+				{
+					"typeStr": "6:factions",
+					"name": "faction",
+					"kind": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "level",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "jobs",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "guests",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "prisoners",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"settlementId": "Nowhere",
+					"location": "Harrad",
+					"building": "farm",
+					"level": 1,
+					"name": "Not Found",
+					"faction": "No_Faction",
+					"jobs": 1,
+					"guests": 0,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Order_Sanctum",
+					"location": "Temple_Of_Order",
+					"building": "radiant_poolhouse",
+					"faction": "Order",
+					"name": "Order Sanctum",
+					"level": 5,
+					"jobs": 5,
+					"guests": 6,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Chaos_Nexus",
+					"location": "Temple_Of_Chaos",
+					"building": "radiant_poolhouse",
+					"name": "Order Nexus",
+					"level": 5,
+					"faction": "Chaos",
+					"jobs": 5,
+					"guests": 6,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Manor_Harrad",
+					"location": "Harrad",
+					"building": "manor",
+					"name": "Sullivan Manor",
+					"level": 3,
+					"faction": "Veridia",
+					"jobs": 5,
+					"guests": 2,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Inn_Harrad",
+					"location": "Harrad",
+					"building": "inn",
+					"name": "Order's Rest",
+					"level": 3,
+					"faction": "Veridia",
+					"jobs": 2,
+					"guests": 1,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Watch_Harrad",
+					"location": "Harrad",
+					"building": "watchtower",
+					"name": "Northwatch",
+					"level": 1,
+					"faction": "Veridia",
+					"jobs": 1,
+					"guests": 0,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Tower_Harrad",
+					"location": "Harrad",
+					"building": "prison",
+					"name": "Overseer Tower",
+					"level": 1,
+					"faction": "Agent",
+					"jobs": 1,
+					"guests": 0,
+					"prisoners": 1
+				},
+				{
+					"settlementId": "Farm_Harrad",
+					"location": "Harrad",
+					"building": "farm",
+					"name": "Balaka Farms",
+					"level": 2,
+					"faction": "Veridia",
+					"jobs": 2,
+					"guests": 1,
+					"prisoners": 0
+				},
+				{
+					"settlementId": "Garden_Harrad",
+					"location": "Harrad",
+					"building": "garden",
+					"faction": "Veridia",
+					"name": "Sullivan Gardens",
+					"level": 1,
+					"jobs": 1,
+					"guests": 0,
+					"prisoners": 0
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "buildings",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "buildingId"
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"kind": null
+				},
+				{
+					"typeStr": "1",
+					"name": "category",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"buildingId": "courthouse",
+					"name": "Courthouse",
+					"category": "Government"
+				},
+				{
+					"buildingId": "graveyard",
+					"name": "Graveyard",
+					"category": "Government"
+				},
+				{
+					"buildingId": "hall",
+					"name": "Hall",
+					"category": "Government"
+				},
+				{
+					"buildingId": "jail",
+					"name": "Jail",
+					"category": "Government"
+				},
+				{
+					"buildingId": "lighthouse",
+					"name": "Lighthouse",
+					"category": "Government"
+				},
+				{
+					"buildingId": "square",
+					"name": "Square",
+					"category": "Government"
+				},
+				{
+					"buildingId": "waterworks",
+					"name": "Waterworks",
+					"category": "Government"
+				},
+				{
+					"buildingId": "aviary",
+					"name": "Aviary",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "conservatory",
+					"name": "Conservatory",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "gallery",
+					"name": "Gallery",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "garden",
+					"name": "Garden",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "library",
+					"name": "Library",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "manor",
+					"name": "Manor",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "stable",
+					"name": "Stable",
+					"category": "Nobility"
+				},
+				{
+					"buildingId": "armory",
+					"name": "Armory",
+					"category": "Military"
+				},
+				{
+					"buildingId": "barracks",
+					"name": "Barracks",
+					"category": "Military"
+				},
+				{
+					"buildingId": "bridge",
+					"name": "Bridge",
+					"category": "Military"
+				},
+				{
+					"buildingId": "guardhouse",
+					"name": "Guardhouse",
+					"category": "Military"
+				},
+				{
+					"buildingId": "prison",
+					"name": "Prison",
+					"category": "Military"
+				},
+				{
+					"buildingId": "treasury",
+					"name": "Treasury",
+					"category": "Military"
+				},
+				{
+					"buildingId": "watchtower",
+					"name": "Watchtower",
+					"category": "Military"
+				},
+				{
+					"buildingId": "academy",
+					"name": "Academy",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "commandery",
+					"name": "Commandery",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "monastery",
+					"name": "Monastery",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "observatory",
+					"name": "Observatory",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "orphanage",
+					"name": "Orphanage",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "radiant_poolhouse",
+					"name": "Radiant Poolhouse",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "hospital",
+					"name": "Hospital",
+					"category": "Temple"
+				},
+				{
+					"buildingId": "farm",
+					"name": "Farm",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "fishery",
+					"name": "Fishery",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "herbalists_grove",
+					"name": "Herbalist's Grove",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "mine",
+					"name": "Mine",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "ranch",
+					"name": "Ranch",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "sawmill",
+					"name": "Sawmill",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "vineyard",
+					"name": "Vineyard",
+					"category": "Resources"
+				},
+				{
+					"buildingId": "alchemist",
+					"name": "Alchemist",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "antiques",
+					"name": "Antiques",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "apothecary",
+					"name": "Apothecary",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "bakery",
+					"name": "Bakery",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "bookstore",
+					"name": "Bookstore",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "brewery",
+					"name": "Brewery",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "butcher",
+					"name": "Butcher",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "clothier",
+					"name": "Clothier",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "foundry",
+					"name": "Foundry",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "jeweler",
+					"name": "Jeweler",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "joinery",
+					"name": "Joinery",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "outfitter",
+					"name": "Outfitter",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "stoneworks",
+					"name": "Stoneworks",
+					"category": "Shops"
+				},
+				{
+					"buildingId": "bank",
+					"name": "Bank",
+					"category": "Services"
+				},
+				{
+					"buildingId": "bathhouse",
+					"name": "Bathhouse",
+					"category": "Services"
+				},
+				{
+					"buildingId": "builders_yard",
+					"name": "Builder's Yard",
+					"category": "Services"
+				},
+				{
+					"buildingId": "casino",
+					"name": "Casino",
+					"category": "Services"
+				},
+				{
+					"buildingId": "den",
+					"name": "Den",
+					"category": "Services"
+				},
+				{
+					"buildingId": "merchants_guild",
+					"name": "Merchants Guild",
+					"category": "Services"
+				},
+				{
+					"buildingId": "inn",
+					"name": "Inn",
+					"category": "Services"
+				},
+				{
+					"buildingId": "shipwright",
+					"name": "Shipwright",
+					"category": "Services"
+				},
+				{
+					"buildingId": "tavern",
+					"name": "Tavern",
+					"category": "Services"
+				},
+				{
+					"buildingId": "thieves_guild",
+					"name": "Thieves Guild",
+					"category": "Services"
+				},
+				{
+					"buildingId": "theater",
+					"name": "Theater",
+					"category": "Services"
+				},
+				{
+					"buildingId": "trade_company",
+					"name": "Trade Company",
+					"category": "Services"
+				},
+				{
+					"buildingId": "windmill",
+					"name": "Windmill",
+					"category": "Services"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "jobs",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "jobId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"kind": null
+				},
+				{
+					"typeStr": "6:buildings",
+					"name": "building",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "level",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"jobId": "courthouse_clerk",
+					"name": "Clerk",
+					"building": "courthouse",
+					"level": 1
+				},
+				{
+					"jobId": "courthouse_bailiff",
+					"name": "Bailiff",
+					"building": "courthouse",
+					"level": 2
+				},
+				{
+					"jobId": "courthouse_judge",
+					"name": "Judge",
+					"building": "courthouse",
+					"level": 3
+				},
+				{
+					"jobId": "courthouse_lawyer",
+					"name": "Lawyer",
+					"building": "courthouse",
+					"level": 4
+				},
+				{
+					"jobId": "courthouse_executioner",
+					"name": "Executioner",
+					"building": "courthouse",
+					"level": 5
+				},
+				{
+					"jobId": "graveyard_grave_digger",
+					"name": "Grave Digger",
+					"building": "graveyard",
+					"level": 1
+				},
+				{
+					"jobId": "graveyard_tombstone_carver",
+					"name": "Tombstone Carver",
+					"building": "graveyard",
+					"level": 2
+				},
+				{
+					"jobId": "graveyard_crypt_keeper",
+					"name": "Crypt Keeper",
+					"building": "graveyard",
+					"level": 3
+				},
+				{
+					"jobId": "graveyard_mortician",
+					"name": "Mortician",
+					"building": "graveyard",
+					"level": 4
+				},
+				{
+					"jobId": "graveyard_anatomist",
+					"name": "Anatomist",
+					"building": "graveyard",
+					"level": 5
+				},
+				{
+					"jobId": "hall_administrator",
+					"name": "Administrator",
+					"building": "hall",
+					"level": 1
+				},
+				{
+					"jobId": "hall_advisor",
+					"name": "Advisor",
+					"building": "hall",
+					"level": 2
+				},
+				{
+					"jobId": "hall_general",
+					"name": "General",
+					"building": "hall",
+					"level": 3
+				},
+				{
+					"jobId": "hall_diplomat",
+					"name": "Diplomat",
+					"building": "hall",
+					"level": 4
+				},
+				{
+					"jobId": "hall_seer",
+					"name": "Seer",
+					"building": "hall",
+					"level": 5
+				},
+				{
+					"jobId": "jail_deputy",
+					"name": "Deputy",
+					"building": "jail",
+					"level": 1
+				},
+				{
+					"jobId": "jail_sheriff",
+					"name": "Sheriff",
+					"building": "jail",
+					"level": 2
+				},
+				{
+					"jobId": "jail_bounty_hunter",
+					"name": "Bounty Hunter",
+					"building": "jail",
+					"level": 3
+				},
+				{
+					"jobId": "jail_marshal",
+					"name": "Marshal",
+					"building": "jail",
+					"level": 4
+				},
+				{
+					"jobId": "jail_clairvoyant",
+					"name": "Clairvoyant",
+					"building": "jail",
+					"level": 5
+				},
+				{
+					"jobId": "lighthouse_assistant",
+					"name": "Assistant",
+					"building": "lighthouse",
+					"level": 1
+				},
+				{
+					"jobId": "lighthouse_lightkeeper",
+					"name": "Lightkeeper",
+					"building": "lighthouse",
+					"level": 2
+				},
+				{
+					"jobId": "lighthouse_navigator",
+					"name": "Navigator",
+					"building": "lighthouse",
+					"level": 3
+				},
+				{
+					"jobId": "lighthouse_harbormaster",
+					"name": "Harbormaster",
+					"building": "lighthouse",
+					"level": 4
+				},
+				{
+					"jobId": "lighthouse_stormwarden",
+					"name": "Stormwarden",
+					"building": "lighthouse",
+					"level": 5
+				},
+				{
+					"jobId": "square_town_crier",
+					"name": "Town Crier",
+					"building": "square",
+					"level": 1
+				},
+				{
+					"jobId": "square_grocer",
+					"name": "Grocer",
+					"building": "square",
+					"level": 2
+				},
+				{
+					"jobId": "square_fountain_keeper",
+					"name": "Fountain Keeper",
+					"building": "square",
+					"level": 3
+				},
+				{
+					"jobId": "square_trader",
+					"name": "Trader",
+					"building": "square",
+					"level": 4
+				},
+				{
+					"jobId": "square_entertainer",
+					"name": "Entertainer",
+					"building": "square",
+					"level": 5
+				},
+				{
+					"jobId": "waterworks_laborer",
+					"name": "Laborer",
+					"building": "waterworks",
+					"level": 1
+				},
+				{
+					"jobId": "waterworks_mechanic",
+					"name": "Mechanic",
+					"building": "waterworks",
+					"level": 2
+				},
+				{
+					"jobId": "waterworks_foreman",
+					"name": "Foreman",
+					"building": "waterworks",
+					"level": 3
+				},
+				{
+					"jobId": "waterworks_engineer",
+					"name": "Engineer",
+					"building": "waterworks",
+					"level": 4
+				},
+				{
+					"jobId": "waterworks_architect",
+					"name": "Architect",
+					"building": "waterworks",
+					"level": 5
+				},
+				{
+					"jobId": "aviary_bird_keeper",
+					"name": "Bird Keeper",
+					"building": "aviary",
+					"level": 1
+				},
+				{
+					"jobId": "aviary_falconer",
+					"name": "Falconer",
+					"building": "aviary",
+					"level": 2
+				},
+				{
+					"jobId": "aviary_trainer",
+					"name": "Trainer",
+					"building": "aviary",
+					"level": 3
+				},
+				{
+					"jobId": "aviary_cryptologist",
+					"name": "Cryptologist",
+					"building": "aviary",
+					"level": 4
+				},
+				{
+					"jobId": "aviary_ornithologist",
+					"name": "Ornithologist",
+					"building": "aviary",
+					"level": 5
+				},
+				{
+					"jobId": "conservatory_instructor",
+					"name": "Instructor",
+					"building": "conservatory",
+					"level": 1
+				},
+				{
+					"jobId": "conservatory_accompanist",
+					"name": "Accompanist",
+					"building": "conservatory",
+					"level": 2
+				},
+				{
+					"jobId": "conservatory_composer",
+					"name": "Composer",
+					"building": "conservatory",
+					"level": 3
+				},
+				{
+					"jobId": "conservatory_conductor",
+					"name": "Conductor",
+					"building": "conservatory",
+					"level": 4
+				},
+				{
+					"jobId": "conservatory_prodigy",
+					"name": "Prodigy",
+					"building": "conservatory",
+					"level": 5
+				},
+				{
+					"jobId": "gallery_art_handler",
+					"name": "Art Handler",
+					"building": "gallery",
+					"level": 1
+				},
+				{
+					"jobId": "gallery_guide",
+					"name": "Guide",
+					"building": "gallery",
+					"level": 2
+				},
+				{
+					"jobId": "gallery_artist",
+					"name": "Artist",
+					"building": "gallery",
+					"level": 3
+				},
+				{
+					"jobId": "gallery_curator",
+					"name": "Curator",
+					"building": "gallery",
+					"level": 4
+				},
+				{
+					"jobId": "gallery_great_master",
+					"name": "Great Master",
+					"building": "gallery",
+					"level": 5
+				},
+				{
+					"jobId": "garden_groundskeeper",
+					"name": "Groundskeeper",
+					"building": "garden",
+					"level": 1
+				},
+				{
+					"jobId": "garden_gardener",
+					"name": "Gardener",
+					"building": "garden",
+					"level": 2
+				},
+				{
+					"jobId": "garden_landscaper",
+					"name": "Landscaper",
+					"building": "garden",
+					"level": 3
+				},
+				{
+					"jobId": "garden_orchardist",
+					"name": "Orchardist",
+					"building": "garden",
+					"level": 4
+				},
+				{
+					"jobId": "garden_botanist",
+					"name": "Botanist",
+					"building": "garden",
+					"level": 5
+				},
+				{
+					"jobId": "library_assistant",
+					"name": "Assistant",
+					"building": "library",
+					"level": 1
+				},
+				{
+					"jobId": "library_scribe",
+					"name": "Scribe",
+					"building": "library",
+					"level": 2
+				},
+				{
+					"jobId": "library_librarian",
+					"name": "Librarian",
+					"building": "library",
+					"level": 3
+				},
+				{
+					"jobId": "library_scholar",
+					"name": "Scholar",
+					"building": "library",
+					"level": 4
+				},
+				{
+					"jobId": "library_curator",
+					"name": "Curator",
+					"building": "library",
+					"level": 5
+				},
+				{
+					"jobId": "manor_lord",
+					"name": "Lord",
+					"building": "manor",
+					"level": 1
+				},
+				{
+					"jobId": "manor_butler",
+					"name": "Butler",
+					"building": "manor",
+					"level": 2
+				},
+				{
+					"jobId": "manor_steward",
+					"name": "Steward",
+					"building": "manor",
+					"level": 3
+				},
+				{
+					"jobId": "manor_jester",
+					"name": "Jester",
+					"building": "manor",
+					"level": 4
+				},
+				{
+					"jobId": "manor_chamberlain",
+					"name": "Chamberlain",
+					"building": "manor",
+					"level": 5
+				},
+				{
+					"jobId": "stable_stablehand",
+					"name": "Stablehand",
+					"building": "stable",
+					"level": 1
+				},
+				{
+					"jobId": "stable_groom",
+					"name": "Groom",
+					"building": "stable",
+					"level": 2
+				},
+				{
+					"jobId": "stable_trainer",
+					"name": "Trainer",
+					"building": "stable",
+					"level": 3
+				},
+				{
+					"jobId": "stable_riding_master",
+					"name": "Riding Master",
+					"building": "stable",
+					"level": 4
+				},
+				{
+					"jobId": "stable_horse_breeder",
+					"name": "Horse Breeder",
+					"building": "stable",
+					"level": 5
+				},
+				{
+					"jobId": "armory_quartermaster",
+					"name": "Quartermaster",
+					"building": "armory",
+					"level": 1
+				},
+				{
+					"jobId": "armory_armorer",
+					"name": "Armorer",
+					"building": "armory",
+					"level": 2
+				},
+				{
+					"jobId": "armory_siege_engineer",
+					"name": "Siege Engineer",
+					"building": "armory",
+					"level": 3
+				},
+				{
+					"jobId": "armory_master_armorer",
+					"name": "Master Armorer",
+					"building": "armory",
+					"level": 4
+				},
+				{
+					"jobId": "armory_master_at_arms",
+					"name": "Master_at_Arms",
+					"building": "armory",
+					"level": 5
+				},
+				{
+					"jobId": "barracks_soldier",
+					"name": "Soldier",
+					"building": "barracks",
+					"level": 1
+				},
+				{
+					"jobId": "barracks_archer",
+					"name": "Archer",
+					"building": "barracks",
+					"level": 2
+				},
+				{
+					"jobId": "barracks_axeman",
+					"name": "Axeman",
+					"building": "barracks",
+					"level": 3
+				},
+				{
+					"jobId": "barracks_man_at_arms",
+					"name": "Man_at_Arms",
+					"building": "barracks",
+					"level": 4
+				},
+				{
+					"jobId": "barracks_commander",
+					"name": "Commander",
+					"building": "barracks",
+					"level": 5
+				},
+				{
+					"jobId": "bridge_guard",
+					"name": "Guard",
+					"building": "bridge",
+					"level": 1
+				},
+				{
+					"jobId": "bridge_watchman",
+					"name": "Watchman",
+					"building": "bridge",
+					"level": 2
+				},
+				{
+					"jobId": "bridge_patrolman",
+					"name": "Patrolman",
+					"building": "bridge",
+					"level": 3
+				},
+				{
+					"jobId": "bridge_toll_collector",
+					"name": "Toll Collector",
+					"building": "bridge",
+					"level": 4
+				},
+				{
+					"jobId": "bridge_bridge_captain",
+					"name": "Bridge Captain",
+					"building": "bridge",
+					"level": 5
+				},
+				{
+					"jobId": "guardhouse_guard",
+					"name": "Guard",
+					"building": "guardhouse",
+					"level": 1
+				},
+				{
+					"jobId": "guardhouse_watchman",
+					"name": "Watchman",
+					"building": "guardhouse",
+					"level": 2
+				},
+				{
+					"jobId": "guardhouse_sergeant",
+					"name": "Sergeant",
+					"building": "guardhouse",
+					"level": 3
+				},
+				{
+					"jobId": "guardhouse_sentry",
+					"name": "Sentry",
+					"building": "guardhouse",
+					"level": 4
+				},
+				{
+					"jobId": "guardhouse_guard_captain",
+					"name": "Guard Captain",
+					"building": "guardhouse",
+					"level": 5
+				},
+				{
+					"jobId": "prison_guard",
+					"name": "Guard",
+					"building": "prison",
+					"level": 1
+				},
+				{
+					"jobId": "prison_jailer",
+					"name": "Jailer",
+					"building": "prison",
+					"level": 2
+				},
+				{
+					"jobId": "prison_interrogator",
+					"name": "Interrogator",
+					"building": "prison",
+					"level": 3
+				},
+				{
+					"jobId": "prison_executioner",
+					"name": "Executioner",
+					"building": "prison",
+					"level": 4
+				},
+				{
+					"jobId": "prison_torturer",
+					"name": "Torturer",
+					"building": "prison",
+					"level": 5
+				},
+				{
+					"jobId": "treasury_guard",
+					"name": "Guard",
+					"building": "treasury",
+					"level": 1
+				},
+				{
+					"jobId": "treasury_treasurer",
+					"name": "Treasurer",
+					"building": "treasury",
+					"level": 2
+				},
+				{
+					"jobId": "treasury_appraiser",
+					"name": "Appraiser",
+					"building": "treasury",
+					"level": 3
+				},
+				{
+					"jobId": "treasury_accountant",
+					"name": "Accountant",
+					"building": "treasury",
+					"level": 4
+				},
+				{
+					"jobId": "treasury_master_of_coin",
+					"name": "Master of Coin",
+					"building": "treasury",
+					"level": 5
+				},
+				{
+					"jobId": "watchtower_watchman",
+					"name": "Watchman",
+					"building": "watchtower",
+					"level": 1
+				},
+				{
+					"jobId": "watchtower_archer",
+					"name": "Archer",
+					"building": "watchtower",
+					"level": 2
+				},
+				{
+					"jobId": "watchtower_scout",
+					"name": "Scout",
+					"building": "watchtower",
+					"level": 3
+				},
+				{
+					"jobId": "watchtower_marksman",
+					"name": "Marksman",
+					"building": "watchtower",
+					"level": 4
+				},
+				{
+					"jobId": "watchtower_ranger",
+					"name": "Ranger",
+					"building": "watchtower",
+					"level": 5
+				},
+				{
+					"jobId": "academy_assistant",
+					"name": "Assistant",
+					"building": "academy",
+					"level": 1
+				},
+				{
+					"jobId": "academy_instructor",
+					"name": "Instructor",
+					"building": "academy",
+					"level": 2
+				},
+				{
+					"jobId": "academy_advisor",
+					"name": "Advisor",
+					"building": "academy",
+					"level": 3
+				},
+				{
+					"jobId": "academy_dean",
+					"name": "Dean",
+					"building": "academy",
+					"level": 4
+				},
+				{
+					"jobId": "academy_headmaster",
+					"name": "Headmaster",
+					"building": "academy",
+					"level": 5
+				},
+				{
+					"jobId": "commandery_acolyte",
+					"name": "Acolyte",
+					"building": "commandery",
+					"level": 1
+				},
+				{
+					"jobId": "commandery_chaplain",
+					"name": "Chaplain",
+					"building": "commandery",
+					"level": 2
+				},
+				{
+					"jobId": "commandery_knight",
+					"name": "Knight",
+					"building": "commandery",
+					"level": 3
+				},
+				{
+					"jobId": "commandery_paladin",
+					"name": "Paladin",
+					"building": "commandery",
+					"level": 4
+				},
+				{
+					"jobId": "commandery_archon",
+					"name": "Archon",
+					"building": "commandery",
+					"level": 5
+				},
+				{
+					"jobId": "monastery_acolyte",
+					"name": "Acolyte",
+					"building": "monastery",
+					"level": 1
+				},
+				{
+					"jobId": "monastery_monk",
+					"name": "Monk",
+					"building": "monastery",
+					"level": 2
+				},
+				{
+					"jobId": "monastery_friar",
+					"name": "Friar",
+					"building": "monastery",
+					"level": 3
+				},
+				{
+					"jobId": "monastery_prior",
+					"name": "Prior",
+					"building": "monastery",
+					"level": 4
+				},
+				{
+					"jobId": "monastery_abbot",
+					"name": "Abbot",
+					"building": "monastery",
+					"level": 5
+				},
+				{
+					"jobId": "observatory_assistant",
+					"name": "Assistant",
+					"building": "observatory",
+					"level": 1
+				},
+				{
+					"jobId": "observatory_astronomer",
+					"name": "Astronomer",
+					"building": "observatory",
+					"level": 2
+				},
+				{
+					"jobId": "observatory_timekeeper",
+					"name": "Timekeeper",
+					"building": "observatory",
+					"level": 3
+				},
+				{
+					"jobId": "observatory_astrologer",
+					"name": "Astrologer",
+					"building": "observatory",
+					"level": 4
+				},
+				{
+					"jobId": "observatory_oracle",
+					"name": "Oracle",
+					"building": "observatory",
+					"level": 5
+				},
+				{
+					"jobId": "orphanage_assistant",
+					"name": "Assistant",
+					"building": "orphanage",
+					"level": 1
+				},
+				{
+					"jobId": "orphanage_caretaker",
+					"name": "Caretaker",
+					"building": "orphanage",
+					"level": 2
+				},
+				{
+					"jobId": "orphanage_nurse",
+					"name": "Nurse",
+					"building": "orphanage",
+					"level": 3
+				},
+				{
+					"jobId": "orphanage_teacher",
+					"name": "Teacher",
+					"building": "orphanage",
+					"level": 4
+				},
+				{
+					"jobId": "orphanage_counselor",
+					"name": "Counselor",
+					"building": "orphanage",
+					"level": 5
+				},
+				{
+					"jobId": "radiant_poolhouse_acolyte",
+					"name": "Acolyte",
+					"building": "radiant_poolhouse",
+					"level": 1
+				},
+				{
+					"jobId": "radiant_poolhouse_priest",
+					"name": "Priest",
+					"building": "radiant_poolhouse",
+					"level": 2
+				},
+				{
+					"jobId": "radiant_poolhouse_guardian",
+					"name": "Guardian",
+					"building": "radiant_poolhouse",
+					"level": 3
+				},
+				{
+					"jobId": "radiant_poolhouse_high_priest",
+					"name": "High Priest",
+					"building": "radiant_poolhouse",
+					"level": 4
+				},
+				{
+					"jobId": "radiant_poolhouse_keeper",
+					"name": "Keeper",
+					"building": "radiant_poolhouse",
+					"level": 5
+				},
+				{
+					"jobId": "hospital_assistant",
+					"name": "Assistant",
+					"building": "hospital",
+					"level": 1
+				},
+				{
+					"jobId": "hospital_nurse",
+					"name": "Nurse",
+					"building": "hospital",
+					"level": 2
+				},
+				{
+					"jobId": "hospital_physician",
+					"name": "Physician",
+					"building": "hospital",
+					"level": 3
+				},
+				{
+					"jobId": "hospital_surgeon",
+					"name": "Surgeon",
+					"building": "hospital",
+					"level": 4
+				},
+				{
+					"jobId": "hospital_chief_of_medicine",
+					"name": "Chief of Medicine",
+					"building": "hospital",
+					"level": 5
+				},
+				{
+					"jobId": "farm_farmhand",
+					"name": "Farmhand",
+					"building": "farm",
+					"level": 1
+				},
+				{
+					"jobId": "farm_farmer",
+					"name": "Farmer",
+					"building": "farm",
+					"level": 2
+				},
+				{
+					"jobId": "farm_farm_manager",
+					"name": "Farm Manager",
+					"building": "farm",
+					"level": 3
+				},
+				{
+					"jobId": "farm_beekeeper",
+					"name": "Beekeeper",
+					"building": "farm",
+					"level": 4
+				},
+				{
+					"jobId": "farm_agronomist",
+					"name": "Agronomist",
+					"building": "farm",
+					"level": 5
+				},
+				{
+					"jobId": "fishery_fisherman",
+					"name": "Fisherman",
+					"building": "fishery",
+					"level": 1
+				},
+				{
+					"jobId": "fishery_netmaker",
+					"name": "Netmaker",
+					"building": "fishery",
+					"level": 2
+				},
+				{
+					"jobId": "fishery_fishmonger",
+					"name": "Fishmonger",
+					"building": "fishery",
+					"level": 3
+				},
+				{
+					"jobId": "fishery_whaler",
+					"name": "Whaler",
+					"building": "fishery",
+					"level": 4
+				},
+				{
+					"jobId": "fishery_aquaculturist",
+					"name": "Aquaculturist",
+					"building": "fishery",
+					"level": 5
+				},
+				{
+					"jobId": "herbalists_grove_herbalist",
+					"name": "Herbalist",
+					"building": "herbalists_grove",
+					"level": 1
+				},
+				{
+					"jobId": "herbalists_grove_cultivator",
+					"name": "Cultivator",
+					"building": "herbalists_grove",
+					"level": 2
+				},
+				{
+					"jobId": "herbalists_grove_botanist",
+					"name": "Botanist",
+					"building": "herbalists_grove",
+					"level": 3
+				},
+				{
+					"jobId": "herbalists_grove_healer",
+					"name": "Healer",
+					"building": "herbalists_grove",
+					"level": 4
+				},
+				{
+					"jobId": "herbalists_grove_druid",
+					"name": "Druid",
+					"building": "herbalists_grove",
+					"level": 5
+				},
+				{
+					"jobId": "mine_miner",
+					"name": "Miner",
+					"building": "mine",
+					"level": 1
+				},
+				{
+					"jobId": "mine_blaster",
+					"name": "Blaster",
+					"building": "mine",
+					"level": 2
+				},
+				{
+					"jobId": "mine_hauler",
+					"name": "Hauler",
+					"building": "mine",
+					"level": 3
+				},
+				{
+					"jobId": "mine_geologist",
+					"name": "Geologist",
+					"building": "mine",
+					"level": 4
+				},
+				{
+					"jobId": "mine_foreman",
+					"name": "Foreman",
+					"building": "mine",
+					"level": 5
+				},
+				{
+					"jobId": "ranch_herder",
+					"name": "Herder",
+					"building": "ranch",
+					"level": 1
+				},
+				{
+					"jobId": "ranch_rancher",
+					"name": "Rancher",
+					"building": "ranch",
+					"level": 2
+				},
+				{
+					"jobId": "ranch_ranch_hand",
+					"name": "Ranch Hand",
+					"building": "ranch",
+					"level": 3
+				},
+				{
+					"jobId": "ranch_breeder",
+					"name": "Breeder",
+					"building": "ranch",
+					"level": 4
+				},
+				{
+					"jobId": "ranch_veterinarian",
+					"name": "Veterinarian",
+					"building": "ranch",
+					"level": 5
+				},
+				{
+					"jobId": "sawmill_sawyer",
+					"name": "Sawyer",
+					"building": "sawmill",
+					"level": 1
+				},
+				{
+					"jobId": "sawmill_lumberjack",
+					"name": "Lumberjack",
+					"building": "sawmill",
+					"level": 2
+				},
+				{
+					"jobId": "sawmill_engineer",
+					"name": "Engineer",
+					"building": "sawmill",
+					"level": 3
+				},
+				{
+					"jobId": "sawmill_logger",
+					"name": "Logger",
+					"building": "sawmill",
+					"level": 4
+				},
+				{
+					"jobId": "sawmill_woodsman",
+					"name": "Woodsman",
+					"building": "sawmill",
+					"level": 5
+				},
+				{
+					"jobId": "vineyard_grower",
+					"name": "Grower",
+					"building": "vineyard",
+					"level": 1
+				},
+				{
+					"jobId": "vineyard_vintner",
+					"name": "Vintner",
+					"building": "vineyard",
+					"level": 2
+				},
+				{
+					"jobId": "vineyard_wine_merchant",
+					"name": "Wine Merchant",
+					"building": "vineyard",
+					"level": 3
+				},
+				{
+					"jobId": "vineyard_vine_tender",
+					"name": "Vine Tender",
+					"building": "vineyard",
+					"level": 4
+				},
+				{
+					"jobId": "vineyard_wine_taster",
+					"name": "Wine Taster",
+					"building": "vineyard",
+					"level": 5
+				},
+				{
+					"jobId": "alchemist_apprentice",
+					"name": "Apprentice",
+					"building": "alchemist",
+					"level": 1
+				},
+				{
+					"jobId": "alchemist_potion_crater",
+					"name": "Potion Crater",
+					"building": "alchemist",
+					"level": 2
+				},
+				{
+					"jobId": "alchemist_potion_maker",
+					"name": "Potion Maker",
+					"building": "alchemist",
+					"level": 3
+				},
+				{
+					"jobId": "alchemist_alchemist",
+					"name": "Alchemist",
+					"building": "alchemist",
+					"level": 4
+				},
+				{
+					"jobId": "alchemist_transmuter",
+					"name": "Transmuter",
+					"building": "alchemist",
+					"level": 5
+				},
+				{
+					"jobId": "antiques_apprentice",
+					"name": "Apprentice",
+					"building": "antiques",
+					"level": 1
+				},
+				{
+					"jobId": "antiques_mechanic",
+					"name": "Mechanic",
+					"building": "antiques",
+					"level": 2
+				},
+				{
+					"jobId": "antiques_clockmaker",
+					"name": "Clockmaker",
+					"building": "antiques",
+					"level": 3
+				},
+				{
+					"jobId": "antiques_engineer",
+					"name": "Engineer",
+					"building": "antiques",
+					"level": 4
+				},
+				{
+					"jobId": "antiques_inventor",
+					"name": "Inventor",
+					"building": "antiques",
+					"level": 5
+				},
+				{
+					"jobId": "apothecary_apprentice",
+					"name": "Apprentice",
+					"building": "apothecary",
+					"level": 1
+				},
+				{
+					"jobId": "apothecary_forager",
+					"name": "Forager",
+					"building": "apothecary",
+					"level": 2
+				},
+				{
+					"jobId": "apothecary_herbalist",
+					"name": "Herbalist",
+					"building": "apothecary",
+					"level": 3
+				},
+				{
+					"jobId": "apothecary_pharmacist",
+					"name": "Pharmacist",
+					"building": "apothecary",
+					"level": 4
+				},
+				{
+					"jobId": "apothecary_poisoner",
+					"name": "Poisoner",
+					"building": "apothecary",
+					"level": 5
+				},
+				{
+					"jobId": "bakery_apprentice",
+					"name": "Apprentice",
+					"building": "bakery",
+					"level": 1
+				},
+				{
+					"jobId": "bakery_baker",
+					"name": "Baker",
+					"building": "bakery",
+					"level": 2
+				},
+				{
+					"jobId": "bakery_tackmaker",
+					"name": "Tackmaker",
+					"building": "bakery",
+					"level": 3
+				},
+				{
+					"jobId": "bakery_patissier",
+					"name": "Patissier",
+					"building": "bakery",
+					"level": 4
+				},
+				{
+					"jobId": "bakery_confectioner",
+					"name": "Confectioner",
+					"building": "bakery",
+					"level": 5
+				},
+				{
+					"jobId": "bookstore_apprentice",
+					"name": "Apprentice",
+					"building": "bookstore",
+					"level": 1
+				},
+				{
+					"jobId": "bookstore_bookbinder",
+					"name": "Bookbinder",
+					"building": "bookstore",
+					"level": 2
+				},
+				{
+					"jobId": "bookstore_scribe",
+					"name": "Scribe",
+					"building": "bookstore",
+					"level": 3
+				},
+				{
+					"jobId": "bookstore_librarian",
+					"name": "Librarian",
+					"building": "bookstore",
+					"level": 4
+				},
+				{
+					"jobId": "bookstore_publisher",
+					"name": "Publisher",
+					"building": "bookstore",
+					"level": 5
+				},
+				{
+					"jobId": "brewery_apprentice",
+					"name": "Apprentice",
+					"building": "brewery",
+					"level": 1
+				},
+				{
+					"jobId": "brewery_barrel_maker",
+					"name": "Barrel Maker",
+					"building": "brewery",
+					"level": 2
+				},
+				{
+					"jobId": "brewery_brewer",
+					"name": "Brewer",
+					"building": "brewery",
+					"level": 3
+				},
+				{
+					"jobId": "brewery_distiller",
+					"name": "Distiller",
+					"building": "brewery",
+					"level": 4
+				},
+				{
+					"jobId": "brewery_mixologist",
+					"name": "Mixologist",
+					"building": "brewery",
+					"level": 5
+				},
+				{
+					"jobId": "butcher_apprentice",
+					"name": "Apprentice",
+					"building": "butcher",
+					"level": 1
+				},
+				{
+					"jobId": "butcher_skinner",
+					"name": "Skinner",
+					"building": "butcher",
+					"level": 2
+				},
+				{
+					"jobId": "butcher_smoker",
+					"name": "Smoker",
+					"building": "butcher",
+					"level": 3
+				},
+				{
+					"jobId": "butcher_sausage_maker",
+					"name": "Sausage Maker",
+					"building": "butcher",
+					"level": 4
+				},
+				{
+					"jobId": "butcher_preserver",
+					"name": "Preserver",
+					"building": "butcher",
+					"level": 5
+				},
+				{
+					"jobId": "clothier_apprentice",
+					"name": "Apprentice",
+					"building": "clothier",
+					"level": 1
+				},
+				{
+					"jobId": "clothier_weaver",
+					"name": "Weaver",
+					"building": "clothier",
+					"level": 2
+				},
+				{
+					"jobId": "clothier_cobbler",
+					"name": "Cobbler",
+					"building": "clothier",
+					"level": 3
+				},
+				{
+					"jobId": "clothier_dressmaker",
+					"name": "Dressmaker",
+					"building": "clothier",
+					"level": 4
+				},
+				{
+					"jobId": "clothier_designer",
+					"name": "Designer",
+					"building": "clothier",
+					"level": 5
+				},
+				{
+					"jobId": "foundry_apprentice",
+					"name": "Apprentice",
+					"building": "foundry",
+					"level": 1
+				},
+				{
+					"jobId": "foundry_armorsmith",
+					"name": "Armorsmith",
+					"building": "foundry",
+					"level": 2
+				},
+				{
+					"jobId": "foundry_weaponsmith",
+					"name": "Weaponsmith",
+					"building": "foundry",
+					"level": 3
+				},
+				{
+					"jobId": "foundry_bladesmith",
+					"name": "Bladesmith",
+					"building": "foundry",
+					"level": 4
+				},
+				{
+					"jobId": "foundry_artificer",
+					"name": "Artificer",
+					"building": "foundry",
+					"level": 5
+				},
+				{
+					"jobId": "jeweler_apprentice",
+					"name": "Apprentice",
+					"building": "jeweler",
+					"level": 1
+				},
+				{
+					"jobId": "jeweler_gemcutter",
+					"name": "Gemcutter",
+					"building": "jeweler",
+					"level": 2
+				},
+				{
+					"jobId": "jeweler_goldsmith",
+					"name": "Goldsmith",
+					"building": "jeweler",
+					"level": 3
+				},
+				{
+					"jobId": "jeweler_enchanter",
+					"name": "Enchanter",
+					"building": "jeweler",
+					"level": 4
+				},
+				{
+					"jobId": "jeweler_imputer",
+					"name": "Imputer",
+					"building": "jeweler",
+					"level": 5
+				},
+				{
+					"jobId": "joinery_apprentice",
+					"name": "Apprentice",
+					"building": "joinery",
+					"level": 1
+				},
+				{
+					"jobId": "joinery_fletcher",
+					"name": "Fletcher",
+					"building": "joinery",
+					"level": 2
+				},
+				{
+					"jobId": "joinery_bowyer",
+					"name": "Bowyer",
+					"building": "joinery",
+					"level": 3
+				},
+				{
+					"jobId": "joinery_furniture_maker",
+					"name": "Furniture Maker",
+					"building": "joinery",
+					"level": 4
+				},
+				{
+					"jobId": "joinery_woodspeaker",
+					"name": "Woodspeaker",
+					"building": "joinery",
+					"level": 5
+				},
+				{
+					"jobId": "outfitter_apprentice",
+					"name": "Apprentice",
+					"building": "outfitter",
+					"level": 1
+				},
+				{
+					"jobId": "outfitter_leatherworker",
+					"name": "Leatherworker",
+					"building": "outfitter",
+					"level": 2
+				},
+				{
+					"jobId": "outfitter_tanner",
+					"name": "Tanner",
+					"building": "outfitter",
+					"level": 3
+				},
+				{
+					"jobId": "outfitter_furrier",
+					"name": "Furrier",
+					"building": "outfitter",
+					"level": 4
+				},
+				{
+					"jobId": "outfitter_explorer",
+					"name": "Explorer",
+					"building": "outfitter",
+					"level": 5
+				},
+				{
+					"jobId": "stoneworks_apprentice",
+					"name": "Apprentice",
+					"building": "stoneworks",
+					"level": 1
+				},
+				{
+					"jobId": "stoneworks_brickmaker",
+					"name": "Brickmaker",
+					"building": "stoneworks",
+					"level": 2
+				},
+				{
+					"jobId": "stoneworks_stonecutter",
+					"name": "Stonecutter",
+					"building": "stoneworks",
+					"level": 3
+				},
+				{
+					"jobId": "stoneworks_sculptor",
+					"name": "Sculptor",
+					"building": "stoneworks",
+					"level": 4
+				},
+				{
+					"jobId": "stoneworks_stoneshaper",
+					"name": "Stoneshaper",
+					"building": "stoneworks",
+					"level": 5
+				},
+				{
+					"jobId": "bank_banker",
+					"name": "Banker",
+					"building": "bank",
+					"level": 1
+				},
+				{
+					"jobId": "bank_clerk",
+					"name": "Clerk",
+					"building": "bank",
+					"level": 2
+				},
+				{
+					"jobId": "bank_advisor",
+					"name": "Advisor",
+					"building": "bank",
+					"level": 3
+				},
+				{
+					"jobId": "bank_moneylender",
+					"name": "Moneylender",
+					"building": "bank",
+					"level": 4
+				},
+				{
+					"jobId": "bank_bank_president",
+					"name": "Bank President",
+					"building": "bank",
+					"level": 5
+				},
+				{
+					"jobId": "bathhouse_bath_attendant",
+					"name": "Bath Attendant",
+					"building": "bathhouse",
+					"level": 1
+				},
+				{
+					"jobId": "bathhouse_towel_keeper",
+					"name": "Towel Keeper",
+					"building": "bathhouse",
+					"level": 2
+				},
+				{
+					"jobId": "bathhouse_bath_steward",
+					"name": "Bath Steward",
+					"building": "bathhouse",
+					"level": 3
+				},
+				{
+					"jobId": "bathhouse_masseuse",
+					"name": "Masseuse",
+					"building": "bathhouse",
+					"level": 4
+				},
+				{
+					"jobId": "bathhouse_bathhouse_manager",
+					"name": "Bathhouse Manager",
+					"building": "bathhouse",
+					"level": 5
+				},
+				{
+					"jobId": "builders_yard_builder",
+					"name": "Builder",
+					"building": "builders_yard",
+					"level": 1
+				},
+				{
+					"jobId": "builders_yard_contractor",
+					"name": "Contractor",
+					"building": "builders_yard",
+					"level": 2
+				},
+				{
+					"jobId": "builders_yard_surveyor",
+					"name": "Surveyor",
+					"building": "builders_yard",
+					"level": 3
+				},
+				{
+					"jobId": "builders_yard_architect",
+					"name": "Architect",
+					"building": "builders_yard",
+					"level": 4
+				},
+				{
+					"jobId": "builders_yard_master_mason",
+					"name": "Master Mason",
+					"building": "builders_yard",
+					"level": 5
+				},
+				{
+					"jobId": "casino_dealer",
+					"name": "Dealer",
+					"building": "casino",
+					"level": 1
+				},
+				{
+					"jobId": "casino_pit_boss",
+					"name": "Pit Boss",
+					"building": "casino",
+					"level": 2
+				},
+				{
+					"jobId": "casino_gambler",
+					"name": "Gambler",
+					"building": "casino",
+					"level": 3
+				},
+				{
+					"jobId": "casino_gangster",
+					"name": "Gangster",
+					"building": "casino",
+					"level": 4
+				},
+				{
+					"jobId": "casino_boss",
+					"name": "Boss",
+					"building": "casino",
+					"level": 5
+				},
+				{
+					"jobId": "den_smuggler",
+					"name": "Smuggler",
+					"building": "den",
+					"level": 1
+				},
+				{
+					"jobId": "den_swashbuckler",
+					"name": "Swashbuckler",
+					"building": "den",
+					"level": 2
+				},
+				{
+					"jobId": "den_pirate",
+					"name": "Pirate",
+					"building": "den",
+					"level": 3
+				},
+				{
+					"jobId": "den_cannoneer",
+					"name": "Cannoneer",
+					"building": "den",
+					"level": 4
+				},
+				{
+					"jobId": "den_captain",
+					"name": "Captain",
+					"building": "den",
+					"level": 5
+				},
+				{
+					"jobId": "merchants_guild_representative",
+					"name": "Representative",
+					"building": "merchants_guild",
+					"level": 1
+				},
+				{
+					"jobId": "merchants_guild_broker",
+					"name": "Broker",
+					"building": "merchants_guild",
+					"level": 2
+				},
+				{
+					"jobId": "merchants_guild_mediator",
+					"name": "Mediator",
+					"building": "merchants_guild",
+					"level": 3
+				},
+				{
+					"jobId": "merchants_guild_fixer",
+					"name": "Fixer",
+					"building": "merchants_guild",
+					"level": 4
+				},
+				{
+					"jobId": "merchants_guild_merchant_prince",
+					"name": "Merchant Prince",
+					"building": "merchants_guild",
+					"level": 5
+				},
+				{
+					"jobId": "inn_clerk",
+					"name": "Clerk",
+					"building": "inn",
+					"level": 1
+				},
+				{
+					"jobId": "inn_cook",
+					"name": "Cook",
+					"building": "inn",
+					"level": 2
+				},
+				{
+					"jobId": "inn_housekeeper",
+					"name": "Housekeeper",
+					"building": "inn",
+					"level": 3
+				},
+				{
+					"jobId": "inn_proprietor",
+					"name": "Proprietor",
+					"building": "inn",
+					"level": 4
+				},
+				{
+					"jobId": "inn_concierge",
+					"name": "Concierge",
+					"building": "inn",
+					"level": 5
+				},
+				{
+					"jobId": "shipwright_ropemaker",
+					"name": "Ropemaker",
+					"building": "shipwright",
+					"level": 1
+				},
+				{
+					"jobId": "shipwright_shipwright",
+					"name": "Shipwright",
+					"building": "shipwright",
+					"level": 2
+				},
+				{
+					"jobId": "shipwright_sailmaker",
+					"name": "Sailmaker",
+					"building": "shipwright",
+					"level": 3
+				},
+				{
+					"jobId": "shipwright_gunfounder",
+					"name": "Gunfounder",
+					"building": "shipwright",
+					"level": 4
+				},
+				{
+					"jobId": "shipwright_master_rigger",
+					"name": "Master Rigger",
+					"building": "shipwright",
+					"level": 5
+				},
+				{
+					"jobId": "tavern_bartender",
+					"name": "Bartender",
+					"building": "tavern",
+					"level": 1
+				},
+				{
+					"jobId": "tavern_server",
+					"name": "Server",
+					"building": "tavern",
+					"level": 2
+				},
+				{
+					"jobId": "tavern_bouncer",
+					"name": "Bouncer",
+					"building": "tavern",
+					"level": 3
+				},
+				{
+					"jobId": "tavern_entertainer",
+					"name": "Entertainer",
+					"building": "tavern",
+					"level": 4
+				},
+				{
+					"jobId": "tavern_host",
+					"name": "Host",
+					"building": "tavern",
+					"level": 5
+				},
+				{
+					"jobId": "thieves_guild_thief",
+					"name": "Thief",
+					"building": "thieves_guild",
+					"level": 1
+				},
+				{
+					"jobId": "thieves_guild_fence",
+					"name": "Fence",
+					"building": "thieves_guild",
+					"level": 2
+				},
+				{
+					"jobId": "thieves_guild_thug",
+					"name": "Thug",
+					"building": "thieves_guild",
+					"level": 3
+				},
+				{
+					"jobId": "thieves_guild_assassin",
+					"name": "Assassin",
+					"building": "thieves_guild",
+					"level": 4
+				},
+				{
+					"jobId": "thieves_guild_guildmaster",
+					"name": "Guildmaster",
+					"building": "thieves_guild",
+					"level": 5
+				},
+				{
+					"jobId": "theater_stagehand",
+					"name": "Stagehand",
+					"building": "theater",
+					"level": 1
+				},
+				{
+					"jobId": "theater_actor",
+					"name": "Actor",
+					"building": "theater",
+					"level": 2
+				},
+				{
+					"jobId": "theater_lead",
+					"name": "Lead",
+					"building": "theater",
+					"level": 3
+				},
+				{
+					"jobId": "theater_director",
+					"name": "Director",
+					"building": "theater",
+					"level": 4
+				},
+				{
+					"jobId": "theater_producer",
+					"name": "Producer",
+					"building": "theater",
+					"level": 5
+				},
+				{
+					"jobId": "trade_company_hauler",
+					"name": "Hauler",
+					"building": "trade_company",
+					"level": 1
+				},
+				{
+					"jobId": "trade_company_trader",
+					"name": "Trader",
+					"building": "trade_company",
+					"level": 2
+				},
+				{
+					"jobId": "trade_company_caravan_master",
+					"name": "Caravan Master",
+					"building": "trade_company",
+					"level": 3
+				},
+				{
+					"jobId": "trade_company_importer",
+					"name": "Importer",
+					"building": "trade_company",
+					"level": 4
+				},
+				{
+					"jobId": "trade_company_magnate",
+					"name": "Magnate",
+					"building": "trade_company",
+					"level": 5
+				},
+				{
+					"jobId": "windmill_assistant",
+					"name": "Assistant",
+					"building": "windmill",
+					"level": 1
+				},
+				{
+					"jobId": "windmill_miller",
+					"name": "Miller",
+					"building": "windmill",
+					"level": 2
+				},
+				{
+					"jobId": "windmill_packer",
+					"name": "Packer",
+					"building": "windmill",
+					"level": 3
+				},
+				{
+					"jobId": "windmill_mill_engineer",
+					"name": "Mill Engineer",
+					"building": "windmill",
+					"level": 4
+				},
+				{
+					"jobId": "windmill_master_miller",
+					"name": "Master Miller",
+					"building": "windmill",
+					"level": 5
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "families",
+			"columns": [],
+			"lines": [],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "characters",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "charId",
+					"kind": "script"
+				},
+				{
+					"typeStr": "1",
+					"name": "name"
+				},
+				{
+					"typeStr": "6:factions",
+					"name": "faction",
+					"kind": null
+				},
+				{
+					"typeStr": "5:order,chaos",
+					"name": "attunement",
+					"opt": true,
+					"kind": null
+				},
+				{
+					"typeStr": "5:Male,Female,None",
+					"name": "sex"
+				},
+				{
+					"typeStr": "6:portraits",
+					"name": "portrait",
+					"kind": null
+				},
+				{
+					"typeStr": "6:locations",
+					"name": "homeLocation"
+				},
+				{
+					"typeStr": "6:chartile",
+					"name": "chartile"
+				},
+				{
+					"typeStr": "6:settlements",
+					"name": "settlement",
+					"kind": null
+				},
+				{
+					"typeStr": "6:jobs",
+					"name": "job",
+					"opt": true
+				},
+				{
+					"typeStr": "6:assignments",
+					"name": "assignment",
+					"opt": true
+				},
+				{
+					"typeStr": "6:homes",
+					"name": "home",
+					"kind": null
+				},
+				{
+					"typeStr": "6:homes",
+					"name": "bed",
+					"opt": true,
+					"kind": null
+				},
+				{
+					"typeStr": "6:locations",
+					"name": "currentLocation",
+					"kind": null
+				},
+				{
+					"typeStr": "6:characters",
+					"name": "spouse",
+					"opt": true,
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "x",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "y",
+					"kind": null
+				},
+				{
+					"typeStr": "3",
+					"name": "z",
+					"kind": null
+				},
+				{
+					"typeStr": "11",
+					"name": "affinity",
+					"kind": null
+				},
+				{
+					"typeStr": "11",
+					"name": "bias",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"charId": "Simulation",
+					"name": "Simulation",
+					"faction": "No_Faction",
+					"portrait": "Simulation",
+					"settlement": "Nowhere",
+					"homeLocation": "Harrad",
+					"currentLocation": "Harrad",
+					"x": 49,
+					"y": 33,
+					"z": 0,
+					"affinity": 7829367,
+					"bias": 7829367,
+					"chartile": "Simulation",
+					"job": "farm_farmhand",
+					"home": "Home1",
+					"attunement": 0,
+					"assignment": "Job1",
+					"sex": 2,
+					"bed": "Home1"
+				},
+				{
+					"charId": "Armitan",
+					"name": "Armitan",
+					"faction": "Order",
+					"portrait": "Order",
+					"homeLocation": "Temple_Of_Order",
+					"settlement": "Order_Sanctum",
+					"currentLocation": "Harrad",
+					"x": 47,
+					"y": 47,
+					"z": 0,
+					"affinity": 39796,
+					"bias": 12237498,
+					"chartile": "Order",
+					"job": "radiant_poolhouse_keeper",
+					"assignment": "Job5",
+					"home": "Home5",
+					"attunement": 0,
+					"sex": 0,
+					"bed": "Home5"
+				},
+				{
+					"charId": "Martiza",
+					"name": "Martiza",
+					"faction": "Chaos",
+					"portrait": "Sireen_A",
+					"homeLocation": "Temple_Of_Chaos",
+					"settlement": "Chaos_Nexus",
+					"currentLocation": "Harrad",
+					"x": 49,
+					"y": 33,
+					"z": 0,
+					"affinity": 16711805,
+					"bias": 4868682,
+					"chartile": "Chaos",
+					"job": "radiant_poolhouse_keeper",
+					"assignment": "Job5",
+					"home": "Home5",
+					"attunement": 0,
+					"sex": 1,
+					"bed": "Home5"
+				},
+				{
+					"charId": "Lombar",
+					"name": "Lombar",
+					"faction": "Agent",
+					"portrait": "Chaos",
+					"homeLocation": "Harrad",
+					"settlement": "Tower_Harrad",
+					"currentLocation": "Harrad",
+					"x": 89,
+					"y": 30,
+					"z": 0,
+					"affinity": 18093,
+					"bias": 11096141,
+					"chartile": "Mage",
+					"job": "prison_guard",
+					"home": "Home1",
+					"attunement": 1,
+					"assignment": "Job1",
+					"sex": 0,
+					"bed": "Home1"
+				},
+				{
+					"charId": "Arkaman",
+					"name": "King Arkaman IV",
+					"faction": "Veridia",
+					"portrait": "Chaos",
+					"homeLocation": "Harrad",
+					"chartile": "King",
+					"settlement": "Tower_Harrad",
+					"home": "Prisoner1",
+					"currentLocation": "Harrad",
+					"x": 96,
+					"y": 25,
+					"z": -1,
+					"affinity": 18093,
+					"bias": 11096141,
+					"attunement": 1,
+					"assignment": "Prisoner",
+					"sex": 0,
+					"bed": "Prisoner1"
+				},
+				{
+					"charId": "Lord_Vanor",
+					"name": "Lord Vanor",
+					"faction": "Veridia",
+					"portrait": "Jester",
+					"homeLocation": "Harrad",
+					"settlement": "Manor_Harrad",
+					"currentLocation": "Harrad",
+					"x": 90,
+					"y": 98,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"chartile": "Warrior",
+					"job": "manor_lord",
+					"home": "Home5",
+					"attunement": 0,
+					"assignment": "Job5",
+					"spouse": "Lady_Vanor",
+					"sex": 0,
+					"bed": "Home5"
+				},
+				{
+					"charId": "Lady_Vanor",
+					"name": "Lady Vanor",
+					"faction": "Veridia",
+					"portrait": "Sireen_B",
+					"homeLocation": "Harrad",
+					"chartile": "Mage",
+					"settlement": "Manor_Harrad",
+					"home": "Home5",
+					"currentLocation": "Harrad",
+					"x": 85,
+					"y": 98,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"assignment": "Socialite",
+					"spouse": "Lord_Vanor",
+					"sex": 1,
+					"bed": "Roommate5"
+				},
+				{
+					"charId": "Dam_Vanor",
+					"name": "Dam",
+					"faction": "Veridia",
+					"portrait": "Boy_1",
+					"homeLocation": "Harrad",
+					"chartile": "Child",
+					"settlement": "Manor_Harrad",
+					"home": "Home5",
+					"currentLocation": "Harrad",
+					"x": 97,
+					"y": 99,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"assignment": "Child",
+					"sex": 0,
+					"bed": "Child1"
+				},
+				{
+					"charId": "Bagsle",
+					"name": "Bagsle",
+					"faction": "Veridia",
+					"portrait": "Boy_2",
+					"homeLocation": "Harrad",
+					"chartile": "Child",
+					"settlement": "Manor_Harrad",
+					"home": "Home1",
+					"currentLocation": "Harrad",
+					"x": 97,
+					"y": 88,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"assignment": "Job1",
+					"job": "farm_farmhand",
+					"sex": 0,
+					"bed": "Home1"
+				},
+				{
+					"charId": "Artax",
+					"name": "Artax",
+					"faction": "Veridia",
+					"portrait": "Outlaw",
+					"homeLocation": "Harrad",
+					"chartile": "Rogue",
+					"settlement": "Manor_Harrad",
+					"home": "Home2",
+					"currentLocation": "Harrad",
+					"x": 83,
+					"y": 104,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"job": "foundry_weaponsmith",
+					"assignment": "Job2",
+					"sex": 0,
+					"bed": "Home2"
+				},
+				{
+					"charId": "Mella",
+					"name": "Mella",
+					"faction": "Veridia",
+					"portrait": "Girl_1",
+					"homeLocation": "Harrad",
+					"chartile": "Guard",
+					"settlement": "Manor_Harrad",
+					"home": "Home3",
+					"currentLocation": "Harrad",
+					"x": 87,
+					"y": 104,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"job": "manor_butler",
+					"assignment": "Job3",
+					"sex": 1,
+					"bed": "Home3"
+				},
+				{
+					"charId": "Isgar",
+					"name": "Isgar",
+					"faction": "Veridia",
+					"portrait": "Guard_2",
+					"homeLocation": "Harrad",
+					"chartile": "Guard",
+					"settlement": "Manor_Harrad",
+					"home": "Home4",
+					"currentLocation": "Harrad",
+					"x": 96,
+					"y": 102,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"job": "guardhouse_guard",
+					"assignment": "Job4",
+					"sex": 0,
+					"bed": "Home4"
+				},
+				{
+					"charId": "Adam",
+					"name": "Adam",
+					"faction": "Veridia",
+					"portrait": "Innkeeper",
+					"homeLocation": "Harrad",
+					"chartile": "OldMan",
+					"settlement": "Inn_Harrad",
+					"home": "Home1",
+					"currentLocation": "Harrad",
+					"x": 29,
+					"y": 102,
+					"z": 0,
+					"affinity": 9263835,
+					"bias": 8156777,
+					"attunement": 0,
+					"job": "inn_clerk",
+					"assignment": "Job1",
+					"spouse": "Sara",
+					"sex": 0,
+					"bed": "Home1"
+				},
+				{
+					"charId": "Sara",
+					"name": "Sara",
+					"faction": "Veridia",
+					"portrait": "Cook",
+					"homeLocation": "Harrad",
+					"settlement": "Inn_Harrad",
+					"currentLocation": "Harrad",
+					"x": 33,
+					"y": 98,
+					"z": 0,
+					"affinity": 10376896,
+					"bias": 8222311,
+					"chartile": "Man",
+					"job": "inn_cook",
+					"assignment": "Job2",
+					"home": "Home1",
+					"spouse": "Adam",
+					"attunement": 0,
+					"sex": 0,
+					"bed": "Roommate1"
+				},
+				{
+					"charId": "Waxley",
+					"name": "Waxley",
+					"faction": "Veridia",
+					"portrait": "Bard",
+					"homeLocation": "Harrad",
+					"settlement": "Inn_Harrad",
+					"currentLocation": "Harrad",
+					"x": 22,
+					"y": 99,
+					"z": 0,
+					"affinity": 12736768,
+					"bias": 31951,
+					"chartile": "Bard",
+					"home": "Guest1",
+					"attunement": 0,
+					"assignment": "Job3",
+					"sex": 0,
+					"bed": "Guest1"
+				},
+				{
+					"charId": "Herrick",
+					"name": "Herrick",
+					"faction": "Veridia",
+					"portrait": "Guard_1",
+					"homeLocation": "Harrad",
+					"chartile": "Guard",
+					"settlement": "Watch_Harrad",
+					"home": "Home1",
+					"currentLocation": "Harrad",
+					"x": 18,
+					"y": 68,
+					"z": 0,
+					"affinity": 10376896,
+					"bias": 8222311,
+					"attunement": 0,
+					"job": "watchtower_watchman",
+					"assignment": "Job1",
+					"sex": 0,
+					"bed": "Home1"
+				},
+				{
+					"charId": "Pollia",
+					"name": "Pollia",
+					"faction": "Veridia",
+					"portrait": "Girl_3",
+					"homeLocation": "Harrad",
+					"chartile": "Child",
+					"settlement": "Farm_Harrad",
+					"home": "Home1",
+					"currentLocation": "Harrad",
+					"x": 30,
+					"y": 82,
+					"z": 0,
+					"affinity": 10376896,
+					"bias": 8222311,
+					"attunement": 0,
+					"job": "farm_farmhand",
+					"assignment": "Job1",
+					"sex": 1,
+					"bed": "Home1"
+				},
+				{
+					"charId": "James",
+					"name": "James",
+					"faction": "Veridia",
+					"portrait": "Caravan_Master",
+					"homeLocation": "Harrad",
+					"chartile": "Man",
+					"settlement": "Farm_Harrad",
+					"home": "Home2",
+					"currentLocation": "Harrad",
+					"x": 43,
+					"y": 85,
+					"z": 0,
+					"affinity": 10376896,
+					"bias": 8222311,
+					"attunement": 0,
+					"job": "farm_farmer",
+					"assignment": "Job2",
+					"spouse": "Maryann",
+					"sex": 0,
+					"bed": "Home2"
+				},
+				{
+					"charId": "Maryann",
+					"name": "Maryann",
+					"faction": "Veridia",
+					"portrait": "Girl_2",
+					"homeLocation": "Harrad",
+					"chartile": "Man",
+					"settlement": "Farm_Harrad",
+					"home": "Home2",
+					"currentLocation": "Harrad",
+					"x": 5,
+					"y": 72,
+					"z": 0,
+					"affinity": 10376896,
+					"bias": 8222311,
+					"attunement": 0,
+					"assignment": "Homemaker",
+					"spouse": "James",
+					"sex": 1,
+					"bed": "Roommate2"
+				},
+				{
+					"charId": "Varo",
+					"name": "Varo",
+					"faction": "Veridia",
+					"portrait": "Monk",
+					"homeLocation": "Harrad",
+					"chartile": "Man",
+					"settlement": "Garden_Harrad",
+					"home": "Home1",
+					"currentLocation": "Harrad",
+					"x": 83,
+					"y": 79,
+					"z": 0,
+					"affinity": 0,
+					"bias": 0,
+					"attunement": 0,
+					"job": "garden_gardener",
+					"assignment": "Job1",
+					"sex": 0,
+					"bed": "Home1"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "portraits",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "portraitId"
+				},
+				{
+					"typeStr": "1",
+					"name": "resource"
+				}
+			],
+			"lines": [
+				{
+					"resource": "bard",
+					"portraitId": "Bard"
+				},
+				{
+					"resource": "boy1",
+					"portraitId": "Boy_1"
+				},
+				{
+					"resource": "boy2",
+					"portraitId": "Boy_2"
+				},
+				{
+					"resource": "boy3",
+					"portraitId": "Boy_3"
+				},
+				{
+					"resource": "caravanmaster",
+					"portraitId": "Caravan_Master"
+				},
+				{
+					"resource": "chaos",
+					"portraitId": "Chaos"
+				},
+				{
+					"resource": "cook",
+					"portraitId": "Cook"
+				},
+				{
+					"resource": "cyberman",
+					"portraitId": "Cyberman"
+				},
+				{
+					"resource": "girl1",
+					"portraitId": "Girl_1"
+				},
+				{
+					"resource": "girl2",
+					"portraitId": "Girl_2"
+				},
+				{
+					"resource": "girl3",
+					"portraitId": "Girl_3"
+				},
+				{
+					"resource": "guard1",
+					"portraitId": "Guard_1"
+				},
+				{
+					"resource": "guard2",
+					"portraitId": "Guard_2"
+				},
+				{
+					"resource": "innkeeper",
+					"portraitId": "Innkeeper"
+				},
+				{
+					"resource": "jester",
+					"portraitId": "Jester"
+				},
+				{
+					"resource": "king",
+					"portraitId": "King"
+				},
+				{
+					"resource": "monk",
+					"portraitId": "Monk"
+				},
+				{
+					"resource": "order",
+					"portraitId": "Order"
+				},
+				{
+					"resource": "outlaw",
+					"portraitId": "Outlaw"
+				},
+				{
+					"resource": "priest",
+					"portraitId": "Priest"
+				},
+				{
+					"resource": "simulation",
+					"portraitId": "Simulation"
+				},
+				{
+					"resource": "sireen_a",
+					"portraitId": "Sireen_A"
+				},
+				{
+					"resource": "sireen_b",
+					"portraitId": "Sireen_B"
+				},
+				{
+					"resource": "sireen_c",
+					"portraitId": "Sireen_C"
+				},
+				{
+					"resource": "sireen_d",
+					"portraitId": "Sireen_D"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "chartile",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "tileId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "3",
+					"name": "tileNo",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"tileId": "Mage",
+					"tileNo": 320
+				},
+				{
+					"tileId": "Rogue",
+					"tileNo": 324
+				},
+				{
+					"tileId": "Warrior",
+					"tileNo": 328
+				},
+				{
+					"tileId": "Main",
+					"tileNo": 332
+				},
+				{
+					"tileId": "Man",
+					"tileNo": 336
+				},
+				{
+					"tileId": "OldMan",
+					"tileNo": 340
+				},
+				{
+					"tileId": "Juggler",
+					"tileNo": 344
+				},
+				{
+					"tileId": "Bard",
+					"tileNo": 348
+				},
+				{
+					"tileId": "PrisonerA",
+					"tileNo": 352
+				},
+				{
+					"tileId": "PrisonerB",
+					"tileNo": 356
+				},
+				{
+					"tileId": "Child",
+					"tileNo": 360
+				},
+				{
+					"tileId": "Beggar",
+					"tileNo": 364
+				},
+				{
+					"tileId": "Guard",
+					"tileNo": 368
+				},
+				{
+					"tileId": "Simulation",
+					"tileNo": 212
+				},
+				{
+					"tileId": "King",
+					"tileNo": 372
+				},
+				{
+					"tileId": "Chaos",
+					"tileNo": 376
+				},
+				{
+					"tileId": "Order",
+					"tileNo": 380
+				},
+				{
+					"tileId": "Seahorse",
+					"tileNo": 384
+				},
+				{
+					"tileId": "Squid",
+					"tileNo": 388
+				},
+				{
+					"tileId": "SeaSerpent",
+					"tileNo": 392
+				},
+				{
+					"tileId": "Shark",
+					"tileNo": 396
+				},
+				{
+					"tileId": "GiantRat",
+					"tileNo": 400
+				},
+				{
+					"tileId": "GiantBat",
+					"tileNo": 404
+				},
+				{
+					"tileId": "GiantSpider",
+					"tileNo": 408
+				},
+				{
+					"tileId": "Ghost",
+					"tileNo": 412
+				},
+				{
+					"tileId": "Slime",
+					"tileNo": 416
+				},
+				{
+					"tileId": "Gremlin",
+					"tileNo": 420
+				},
+				{
+					"tileId": "Mimic",
+					"tileNo": 424
+				},
+				{
+					"tileId": "Reaper",
+					"tileNo": 428
+				},
+				{
+					"tileId": "Beholder",
+					"tileNo": 432
+				},
+				{
+					"tileId": "Badger",
+					"tileNo": 440
+				},
+				{
+					"tileId": "Swarm",
+					"tileNo": 444
+				},
+				{
+					"tileId": "Beastman",
+					"tileNo": 448
+				},
+				{
+					"tileId": "Skeleton",
+					"tileNo": 452
+				},
+				{
+					"tileId": "Snake",
+					"tileNo": 456
+				},
+				{
+					"tileId": "Ettin",
+					"tileNo": 460
+				},
+				{
+					"tileId": "Headless",
+					"tileNo": 464
+				},
+				{
+					"tileId": "Wisp",
+					"tileNo": 468
+				},
+				{
+					"tileId": "Demon",
+					"tileNo": 472
+				},
+				{
+					"tileId": "Dragon",
+					"tileNo": 476
+				},
+				{
+					"tileId": "SandTrapper",
+					"tileNo": 480
+				},
+				{
+					"tileId": "Troll",
+					"tileNo": 484
+				},
+				{
+					"tileId": "Mutant",
+					"tileNo": 496
+				},
+				{
+					"tileId": "Vines",
+					"tileNo": 500
+				},
+				{
+					"tileId": "Worm",
+					"tileNo": 504
+				},
+				{
+					"tileId": "Shadow",
+					"tileNo": 508
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "assignments",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "assignmentId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "3",
+					"name": "assignmentNo",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"assignmentId": "Job1",
+					"assignmentNo": 1
+				},
+				{
+					"assignmentId": "Job2",
+					"assignmentNo": 2
+				},
+				{
+					"assignmentId": "Job3",
+					"assignmentNo": 3
+				},
+				{
+					"assignmentId": "Job4",
+					"assignmentNo": 4
+				},
+				{
+					"assignmentId": "Job5",
+					"assignmentNo": 5
+				},
+				{
+					"assignmentId": "Guest",
+					"assignmentNo": 6
+				},
+				{
+					"assignmentId": "Prisoner",
+					"assignmentNo": 7
+				},
+				{
+					"assignmentId": "Child",
+					"assignmentNo": 0
+				},
+				{
+					"assignmentId": "Homemaker",
+					"assignmentNo": 0
+				},
+				{
+					"assignmentId": "Socialite",
+					"assignmentNo": 0
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "homes",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "homeId",
+					"kind": null,
+					"scope": null
+				},
+				{
+					"typeStr": "3",
+					"name": "homeNo",
+					"kind": null
+				}
+			],
+			"lines": [
+				{
+					"homeId": "Home1",
+					"homeNo": 1
+				},
+				{
+					"homeId": "Home2",
+					"homeNo": 2
+				},
+				{
+					"homeId": "Home3",
+					"homeNo": 3
+				},
+				{
+					"homeId": "Home4",
+					"homeNo": 4
+				},
+				{
+					"homeId": "Home5",
+					"homeNo": 5
+				},
+				{
+					"homeId": "Roommate1",
+					"homeNo": 6
+				},
+				{
+					"homeId": "Roommate2",
+					"homeNo": 7
+				},
+				{
+					"homeId": "Roommate3",
+					"homeNo": 8
+				},
+				{
+					"homeId": "Roommate4",
+					"homeNo": 9
+				},
+				{
+					"homeId": "Roommate5",
+					"homeNo": 10
+				},
+				{
+					"homeId": "Guest1",
+					"homeNo": 11
+				},
+				{
+					"homeId": "Guest2",
+					"homeNo": 12
+				},
+				{
+					"homeId": "Guest3",
+					"homeNo": 13
+				},
+				{
+					"homeId": "Guest4",
+					"homeNo": 14
+				},
+				{
+					"homeId": "Guest5",
+					"homeNo": 15
+				},
+				{
+					"homeId": "Guest6",
+					"homeNo": 16
+				},
+				{
+					"homeId": "Guest7",
+					"homeNo": 17
+				},
+				{
+					"homeId": "Guest8",
+					"homeNo": 18
+				},
+				{
+					"homeId": "Guest9",
+					"homeNo": 19
+				},
+				{
+					"homeId": "GuestA",
+					"homeNo": 20
+				},
+				{
+					"homeId": "Child1",
+					"homeNo": 21
+				},
+				{
+					"homeId": "Child2",
+					"homeNo": 22
+				},
+				{
+					"homeId": "Child3",
+					"homeNo": 23
+				},
+				{
+					"homeId": "Child4",
+					"homeNo": 24
+				},
+				{
+					"homeId": "Child5",
+					"homeNo": 25
+				},
+				{
+					"homeId": "Prisoner1",
+					"homeNo": 26
+				},
+				{
+					"homeId": "Prisoner2",
+					"homeNo": 27
+				},
+				{
+					"homeId": "Prisoner3",
+					"homeNo": 28
+				},
+				{
+					"homeId": "Prisoner4",
+					"homeNo": 29
+				},
+				{
+					"homeId": "Prisoner5",
+					"homeNo": 30
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}
